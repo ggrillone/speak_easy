@@ -24,7 +24,7 @@ gulp build-production
 
 
 if [[ $? != 0 ]] ; then
-  echo 'Admin app UI build failed'
+  echo 'App build failed'
 else
   tar cfJ tmp/builds/$filename ./prod-dist/
 fi
