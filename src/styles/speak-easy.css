@@ -402,6 +402,20 @@ section h2 {
   font-size: 20px;
 }
 
+#submit-btn {
+  position: absolute;
+  top: 502px;
+  left: 890px;
+  z-index: 5;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 4px 10px;
+}
+
 /*MEDIA QUERIES*/
 
 @media (min-width: 0px) and (max-width: 695px) {
